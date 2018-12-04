@@ -1,7 +1,9 @@
 ember-css-element-queries
 ==============================================================================
 
-[Short description of the addon.]
+Automatically adds
+[css-element-queries](https://github.com/marcj/css-element-queries#readme) to
+your application and initialises it at boot time. 
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,7 +16,20 @@ ember install ember-css-element-queries
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+This addon adds the following code to the header
+
+```
+<script src="/assets/css-element-queries.js"></script>
+<script>
+  if(typeof FastBoot === 'undefined') {
+    ElementQueries.listen();
+    ElementQueries.init();
+  }
+</script>
+```
+
+and makes sure that the css-element-queries code is available for download in
+your application.
 
 
 Contributing

@@ -1,9 +1,11 @@
 {
   "name": "ember-css-element-queries",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A simple addon to add css-element-queries to your application",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "css",
+    "element-queries"
   ],
   "repository": "",
   "license": "MIT",
@@ -21,7 +23,11 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "^6.16.0"
+    "broccoli-concat": "^3.7.3",
+    "broccoli-funnel": "^2.0.1",
+    "css-element-queries": "^1.1.1",
+    "ember-cli-babel": "^6.16.0",
+    "resolve": "^1.8.1"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
