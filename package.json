@@ -1,6 +1,6 @@
 {
   "name": "ember-css-element-queries",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simple addon to add css-element-queries to your application",
   "keywords": [
     "ember-addon",
